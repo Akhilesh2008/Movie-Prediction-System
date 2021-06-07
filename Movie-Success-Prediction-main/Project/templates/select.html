@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+Home
+{% endblock title %}
+{% block body %}
+
+
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="/static/KNN.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">KNN Algorithm</h5>
+        <p class="card-text">K-NN algorithm stores all the available data and classifies a new data point based on the similarity. This means when new data appears then it can be easily classified into a well suite category by using K- NN algorithm.</p>
+        <div class="d-grid gap-2 col-6 mx-auto">
+        <a href="/data1" class="btn btn-primary btn-lg">Data Entry</a>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="col">
+    <div class="card">
+      <img src="/static/rand.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Random Forest Algorithm</h5>
+        <p class="card-text">Random Forest is a robust machine learning algorithm that can be used for a variety of tasks including regression and classification.</p>
+        <div class="d-grid gap-2 col-6 mx-auto">
+        <a href="/data2" class="btn btn-primary btn-lg">Data Entry</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+{% endblock body %}

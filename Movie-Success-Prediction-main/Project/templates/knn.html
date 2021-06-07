@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+Home
+{% endblock title %}
+{% block body %}
+
+<div class="mt-4">
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+  <!-- Content here -->
+<div class="card text-center">
+<div class="card mb-3" style="width: 38rem;">
+  <img src="/static/success.jpg" class="card-img-top" alt="..." style="width:606px;height:300px;">
+  <div class="card-body">
+    <h2 class="card-title">{{data1}}</h2>
+    <h4 class="card-title"><b>{{data2}}</b> <span style='font-size:30px;'>&#9733;</span> star rating</h4>
+    <p class="card-text">K nearest neighbors is a simple algorithm that stores all available cases and classifies new cases based on a similarity measure (e.g., distance functions).</p>
+    <a href="/knn_graph" class="btn btn-primary">View graph</a>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+{% endblock body %}

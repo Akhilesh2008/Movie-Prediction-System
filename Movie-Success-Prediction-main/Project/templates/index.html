@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+Home
+{% endblock title %}
+{% block body %}
+<div class="mt-4">
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+  <!-- Content here -->
+<div class="card text-center">
+<div class="card mb-3" style="width: 38rem;">
+  <img src="/static/movies.jpg" class="card-img-top" alt="..." style="width:606px;height:300px;">
+  <div class="card-body">
+    <h5 class="card-title">Prediction</h5>
+    <p class="card-text">Movie Success Prediction System using Data Mining & Machine Learning Techniques
+
+</p>
+    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    <a href="/select" class="btn btn-primary">Data Entry</a>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+{% comment %} <div class="d-flex justify-content-center">
+ <div class="col-3">
+    <div class="card" style="width: 18rem;">
+  <img src="/static/yoyo.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+ </div>
+
+
+            <form method="get" action="/data">
+            <button type="submit" class="btn btn-outline-danger">LogOut</button>
+            </form> 
+</div>
+</div> {% endcomment %}
+{% endblock body %}
